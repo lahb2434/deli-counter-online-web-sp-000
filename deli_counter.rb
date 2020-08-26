@@ -7,7 +7,8 @@ def line(customer)
       puts (new_customer.push("#{position}. #{name}"))
     end
     new_customer
-    new_customer.each do |x| puts "The line is currently:" puts "#{x}"
+    new_customer.each do |x| puts "The line is currently:" 
+        puts "#{x}"
     end
   end
 end
