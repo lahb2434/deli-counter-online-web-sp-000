@@ -12,5 +12,6 @@ def line(customer)
 end
 
 def take_a_number(customer)
-  
+  new_customer = customer.push
+end
 
