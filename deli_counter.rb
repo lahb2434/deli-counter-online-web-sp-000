@@ -15,6 +15,8 @@ def take_a_number(array, name)
   array.push(name)
   puts "Welcome, #{array[-1]}. You are number #{array.length} in line."
 end
+
+def now_serving
   
   
 
