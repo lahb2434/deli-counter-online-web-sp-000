@@ -11,9 +11,9 @@ def line(customer)
   end
 end
 
-def take_a_number(katz_grill, customer)
-  katz_grill.push(name)
-  puts "Welcome, #{katz_grill[-1]}. You are number #{katz_grill.length} in line."
+def take_a_number(katz, customer)
+  katz.push(name)
+  puts "Welcome, #{katz[-1]}. You are number #{katz.length} in line."
 end
 
 def now_serving(customer)
