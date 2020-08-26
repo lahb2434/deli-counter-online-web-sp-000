@@ -20,7 +20,7 @@ def now_serving(katz_deli, customer)
   if katz_deli.length == 0 
       puts "There is nobody waiting to be served!"
   else
-    katz_deli.
+    katz_deli.shift
   end
 end
 
