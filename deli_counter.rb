@@ -14,4 +14,4 @@ def line(customer)
   end
 end
 
-line(%w(nick sam elliot richard ricardo))
+line(["sam","max","rich"])
