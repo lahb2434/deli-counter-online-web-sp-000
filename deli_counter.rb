@@ -3,9 +3,9 @@ def line(customer)
     if customer.length == 0 
       puts "The line is currently empty." 
     else
-      puts "The line is currently:"
+      
       customer.each_with_index do |name, position| position += 1
-        puts "#{position}. #{name}"
+         puts "The line is currenly: #{position}. #{name}"
     end
   end
 end
