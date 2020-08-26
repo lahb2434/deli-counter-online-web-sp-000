@@ -16,5 +16,6 @@ def take_a_number(customer)
   case customer
   when == 0 
     in_line = customer.push
+  end
 end
 
