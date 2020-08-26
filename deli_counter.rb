@@ -4,8 +4,9 @@ def line(customer)
       puts "The line is currently empty." 
     else
       customer.each_with_index do |name, position| position += 1
-         puts "The line is currently: #{position}. #{name}"
+         new_array.push("#{position}. #{name}")
     end
+      puts ""
   end
 end
 
