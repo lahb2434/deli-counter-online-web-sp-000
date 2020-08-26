@@ -6,6 +6,8 @@ def line(customer)
     customer.each_with_index do |name, position| position += 1
     puts (new_customer.push("#{position}. #{name}"))
   end
+  new_customer
+  new_customer.each do |x| puts "The line is currently: #{x}"
 end
 end
 
