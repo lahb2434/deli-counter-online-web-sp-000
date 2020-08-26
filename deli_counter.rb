@@ -5,7 +5,7 @@ def line(customer)
     else
       
       customer.each_with_index do |name, position| position += 1
-         puts "The line is currenly: #{position}. #{name}"
+         puts "The line is currently: #{position}. #{name}"
     end
   end
 end
