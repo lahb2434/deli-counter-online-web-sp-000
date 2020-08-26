@@ -12,7 +12,9 @@ def line(customer)
 end
 
 def take_a_number(customer)
+  in_line = []
   case customer
-  when 
+  when == 0 
+    in_line = customer.push
 end
 
