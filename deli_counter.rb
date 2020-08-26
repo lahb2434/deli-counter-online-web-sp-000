@@ -7,6 +7,6 @@ def line(customer)
     new_customer.push("#{position}. #{name}")
   end
   new_customer
-  puts "The line is currently: #{new_customer}"
+  puts "The line is currently:#{new_customer}"
 end
 end
