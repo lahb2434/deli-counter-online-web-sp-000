@@ -8,3 +8,4 @@ def line(customer)
   end
   new_customer
 end
+end
