@@ -11,4 +11,3 @@ def line(customer)
   end
 end
 
-line(["sam","max","rich"])
