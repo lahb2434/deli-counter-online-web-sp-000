@@ -16,11 +16,7 @@ def take_a_number(array, customer)
   puts "Welcome, #{array[-1]}. You are number #{array.length} in line."
 end
 
-def now_serving(customer)
-  if customer.length == 0 
-      puts "The line is currently empty."
-  end
-end
+
   
   
   
