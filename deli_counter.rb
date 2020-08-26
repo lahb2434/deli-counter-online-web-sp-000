@@ -10,3 +10,5 @@ def line(customer)
   puts "The line is currently:#{new_customer}"
 end
 end
+
+line(%w(nick sam elliot richard ricardo))
