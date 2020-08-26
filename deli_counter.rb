@@ -11,9 +11,9 @@ def line(customer)
   end
 end
 
-def take_a_number(array, customer)
-  array.push(name)
-  puts "Welcome, #{array[-1]}. You are number #{array.length} in line."
+def take_a_number(katz_deli, customer)
+  katz_deli.push(customer)
+  puts "Welcome, #{katz_deli[-1]}. You are number #{katz_deli.length} in line."
 end
 
 
