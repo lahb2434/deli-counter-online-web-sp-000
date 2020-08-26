@@ -7,5 +7,4 @@ def line(customer)
     new_customer.push("#{position}. #{name}")
   end
   new_customer
-  puts new_customer
 end
