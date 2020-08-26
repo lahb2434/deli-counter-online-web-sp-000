@@ -6,7 +6,7 @@ def line(customer)
       customer.each_with_index do |name, position| position += 1
          new_array.push("#{position}. #{name}")
     end
-      puts ""
+      puts "The line is currently: #{new_array.join" "}"
   end
 end
 
