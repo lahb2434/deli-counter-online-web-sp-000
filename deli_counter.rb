@@ -11,11 +11,7 @@ def line(customer)
   end
 end
 
-def take_a_number(customer)
-  in_line = []
-  case customer
-  when == 0 
-    in_line = customer.push
-  end
-end
+def take_a_number(katz_deli, name)
+  if .length == 0 
+  
 
