@@ -11,12 +11,17 @@ def line(customer)
   end
 end
 
-def take_a_number(array, name)
-  array.push(name)
-  puts "Welcome, #{array[-1]}. You are number #{array.length} in line."
+def take_a_number(katz_grill, customer)
+  katz_grill.push(name)
+  puts "Welcome, #{katz_grill[-1]}. You are number #{katz_grill.length} in line."
 end
 
-def now_serving
+def now_serving(customer)
+  if customer.length == 0 
+      puts "The line is currently empty."
+  end
+end
+  
   
   
 
