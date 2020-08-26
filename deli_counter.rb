@@ -10,5 +10,6 @@ def line(customer)
   customer.each do |x| puts "The line is currently: #{x}"
 end
 end
+end
 
 line(%w(nick sam elliot richard ricardo))
