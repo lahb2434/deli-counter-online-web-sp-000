@@ -13,7 +13,9 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  array.each_with_index{ |name, position| position += 1 ; puts "Welcome, #{name}. You are number #{position} in line."}
+  array.each_with_index do |name, position| position += 1 
+    puts "Welcome, #{name}. You are number #{position} in line."
+  end
 end
   
   
